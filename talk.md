@@ -459,6 +459,10 @@ class TransformerModel(nn.Module):
 
 ---
 
+# Conclusions
+
+---
+
 ## Summary
 
 - Transformer: New (<10 years) model underlying much of the AI boom
@@ -471,7 +475,7 @@ class TransformerModel(nn.Module):
 
 ## Onward
 
-![80% Plot of parameter growth in AI models. The original transformer model in 2017 is orders of magnitude smaller than modern models.](figures/parameter_growth.png)
+![70% Plot of parameter growth in AI models. The original transformer model in 2017 is orders of magnitude smaller than modern models.](figures/parameter_growth.png)
 
 <it>Ref: Maslej, et al. “The AI Index 2025
 Annual Report,” Stanford University. April 2025.
