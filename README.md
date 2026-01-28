@@ -8,6 +8,12 @@ Contents:
 ## One-time Setup
 To run the notebooks, you will need to have the right packages installed.
 
+_Note_: If running on [ARC](https://arc.vt.edu) resources, it may be helpful to run 
+```
+module reset; module load Miniforge3/25.11.0-1
+```
+prior to other commands to get access to a newer version of Python.
+
 ### Recommended: Create a virtual environment
 Linux/Mac:
 ```bash
@@ -47,6 +53,9 @@ deactivate
 Just install the requirements:
 ```bash
 pip install -r requirements.txt
+```
+And then download the model:
+```bash
 python -m spacy download en_core_web_lg
 ```
 
