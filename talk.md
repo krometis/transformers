@@ -325,10 +325,11 @@ class SelfAttentionHead(nn.Module):
 ## Completing the Transformer
 
 1. Multi-head attention: Multiple blocks in parallel & concatenate
-2. Iterate several attention blocks (deeper network)
-3. Linear layer to re-inflate to embedding dimension
-4. Positional encoding
-5. Training practicalities
+2. Linear layer to re-inflate to embedding dimension
+3. Feedforward layer
+4. Iterate several attention blocks (deeper network)
+5. Positional encoding
+6. Training practicalities
     - "Skip" (residual) connections to retain information deeper in network
     - Layer normalization to mitigate gradients
     - Dropout to reduce overfitting
